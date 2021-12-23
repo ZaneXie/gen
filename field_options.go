@@ -2,13 +2,13 @@ package gen
 
 import (
 	"fmt"
+	"github.com/ZaneXie/gen/kernel/check"
+	"github.com/ZaneXie/gen/kernel/model"
 	"reflect"
 	"regexp"
 	"strings"
 
-	"gorm.io/gen/field"
-	"gorm.io/gen/internal/check"
-	"gorm.io/gen/internal/model"
+	"github.com/ZaneXie/gen/field"
 	"gorm.io/gorm/schema"
 )
 

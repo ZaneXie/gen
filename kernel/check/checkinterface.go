@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"gorm.io/gen/internal/model"
-	"gorm.io/gen/internal/parser"
+	"github.com/ZaneXie/gen/kernel/model"
+	"github.com/ZaneXie/gen/kernel/parser"
 )
 
 // InterfaceMethod interface's method

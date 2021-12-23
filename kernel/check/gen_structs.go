@@ -10,8 +10,8 @@ import (
 	"gorm.io/gorm/schema"
 	"gorm.io/gorm/utils/tests"
 
-	"gorm.io/gen/internal/model"
-	"gorm.io/gen/internal/parser"
+	"github.com/ZaneXie/gen/kernel/model"
+	"github.com/ZaneXie/gen/kernel/parser"
 )
 
 /*

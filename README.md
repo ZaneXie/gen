@@ -134,13 +134,13 @@ To install Gen package, you need to install Go and set your Go workspace first.
 1.The first need Go installed(version 1.14+ is required), then you can use the below Go command to install Gen.
 
 ```bash
-go get -u gorm.io/gen
+go get -u github.com/ZaneXie/gen
 ```
 
 2.Import it in your code:
 
 ```go
-import "gorm.io/gen"
+import "github.com/ZaneXie/gen"
 ```
 
 ## Quick start
@@ -305,7 +305,7 @@ Actually, you're not supposed to create a new field variable, cause it will be a
 Create field examples:
 
 ```go
-import "gorm.io/gen/field"
+import "github.com/ZaneXie/gen/field"
 
 // create a new generic field map to `generic_a`
 a := field.NewField("table_name", "generic_a")
@@ -1972,7 +1972,7 @@ users, err := u.WithContext(ctx).Clauses(hints.ForceIndex("idx_user_name", "idx_
 Install GEN as a binary tool:
 
 ```bash
-go install gorm.io/gen/tools/gentool@latest
+go install github.com/ZaneXie/gen/tools/gentool@latest
 ```
 
 usage:

@@ -7,8 +7,8 @@ import (
 
 	"gorm.io/gorm"
 
-	"gorm.io/gen/internal/model"
-	"gorm.io/gen/internal/parser"
+	"github.com/ZaneXie/gen/kernel/model"
+	"github.com/ZaneXie/gen/kernel/parser"
 )
 
 // CheckStructs check the legitimacy of structures

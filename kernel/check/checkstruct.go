@@ -8,9 +8,9 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 
-	"gorm.io/gen/field"
-	"gorm.io/gen/internal/model"
-	"gorm.io/gen/internal/parser"
+	"github.com/ZaneXie/gen/field"
+	"github.com/ZaneXie/gen/kernel/model"
+	"github.com/ZaneXie/gen/kernel/parser"
 )
 
 // BaseStruct struct info in generated code

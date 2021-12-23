@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gorm.io/gen"
-	"gorm.io/gen/examples/dal/model"
+	"github.com/ZaneXie/gen"
+	"github.com/ZaneXie/gen/examples/dal/model"
 )
 
 func main() {

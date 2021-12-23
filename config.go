@@ -6,8 +6,8 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"gorm.io/gen/internal/check"
-	"gorm.io/gen/internal/model"
+	"github.com/ZaneXie/gen/kernel/check"
+	"github.com/ZaneXie/gen/kernel/model"
 	"gorm.io/gorm"
 	"gorm.io/gorm/utils/tests"
 )

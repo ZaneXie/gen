@@ -1,4 +1,4 @@
-module gorm.io/gen
+module github.com/ZaneXie/gen
 
 go 1.14
 

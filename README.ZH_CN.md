@@ -133,13 +133,13 @@
 1. 安装完 Go（要求 1.14 以上版本）后，可以使用以下 Go 命令安装 Gen。
 
 ```bash
-go get -u gorm.io/gen
+go get -u github.com/ZaneXie/gen
 ```
 
 2. 在工程中导入引用 Gen:
 
 ```go
-import "gorm.io/gen"
+import "github.com/ZaneXie/gen"
 ```
 
 ## <span id="quick-start">快速开始</span>
@@ -302,7 +302,7 @@ g.WithDataTypeMap(dataMap)
 创建字段示例：
 
 ```go
-import "gorm.io/gen/field"
+import "github.com/ZaneXie/gen/field"
 
 // create a new generic field map to `generic_a`
 a := field.NewField("table_name", "generic_a")
@@ -1983,7 +1983,7 @@ users, err := u.WithContext(ctx).Clauses(hints.ForceIndex("idx_user_name", "idx_
 通过二进制文件安装 gen 命令行工具:
 
 ```bash
-go install gorm.io/gen/tools/gentool@latest
+go install github.com/ZaneXie/gen/tools/gentool@latest
 ```
 
 用法：

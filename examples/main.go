@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"gorm.io/gen/examples/biz"
-	"gorm.io/gen/examples/conf"
-	"gorm.io/gen/examples/dal"
+	"github.com/ZaneXie/gen/examples/biz"
+	"github.com/ZaneXie/gen/examples/conf"
+	"github.com/ZaneXie/gen/examples/dal"
 )
 
 func init() {

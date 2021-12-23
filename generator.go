@@ -18,11 +18,11 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 
-	"gorm.io/gen/internal/check"
-	"gorm.io/gen/internal/model"
-	"gorm.io/gen/internal/parser"
-	tmpl "gorm.io/gen/internal/template"
-	"gorm.io/gen/internal/utils/pools"
+	"github.com/ZaneXie/gen/kernel/check"
+	"github.com/ZaneXie/gen/kernel/model"
+	"github.com/ZaneXie/gen/kernel/parser"
+	tmpl "github.com/ZaneXie/gen/kernel/template"
+	"github.com/ZaneXie/gen/kernel/utils/pools"
 )
 
 // T generic type
