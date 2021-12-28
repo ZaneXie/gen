@@ -53,12 +53,13 @@ func CheckClause(cond clause.Expression) error {
 }
 
 func checkOnConflict(c clause.OnConflict) error {
-	for _, item := range c.DoUpdates {
-		switch item.Value.(type) {
-		case clause.Expr, *clause.Expr:
-			return errors.New("OnConflict clause assignment with gorm.Expr is banned for security reasons for now")
-		}
-	}
+	// 无需校验
+	//for _, item := range c.DoUpdates {
+	//switch item.Value.(type) {
+	//case clause.Expr, *clause.Expr:
+	//	return errors.New("OnConflict clause assignment with gorm.Expr is banned for security reasons for now")
+	//}
+	//}
 	return nil
 }
 
